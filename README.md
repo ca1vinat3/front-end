@@ -1,12 +1,12 @@
-# TxCity Frontend
+# SolanaCity.fun Frontend
 
 ---
 
 # Summary
 
-TxCity is a live transaction and mempool visualizer featuring Bitcoin, Ethereum, Bitcoin Cash, Monero and Litecoin. When a new transaction is broadcasted to a cryptocurrency network, a person appears and attempts to board a bus in real time. If the transaction has a high enough fee, they will board the first bus and be ready to be included in the next mined block. If there are too many transactions to be included in the next block, and the transaction didn't pay a high enough fee, the person will either wait in line or board a different bus. The movement speed of a person represents how high of a fee they paid compared to the current median fee. The size of a person represents the size of the transaction in bytes or gas.
+SolanaCity.fun is a live transaction and mempool visualizer featuring Solana, Bitcoin & Ethereum. When a new transaction is broadcasted to a cryptocurrency network, a person appears and attempts to board a bus in real time. If the transaction has a high enough fee, they will board the first bus and be ready to be included in the next mined block. If there are too many transactions to be included in the next block, and the transaction didn't pay a high enough fee, the person will either wait in line or board a different bus. The movement speed of a person represents how high of a fee they paid compared to the current median fee. The size of a person represents the size of the transaction in bytes or gas.
 
-The frontend is built with Vue, Bulma and Phaser 3. It connects to TxCity backends using websockets (socket.io) and REST APIs.
+The frontend is built with Vue, Bulma and Phaser 3. It connects to SolanaCity.fun backends using websockets (socket.io) and REST APIs.
 
 
 ---
@@ -16,7 +16,7 @@ The frontend is built with Vue, Bulma and Phaser 3. It connects to TxCity backen
 
 The MIT License (MIT)
 
-Copyright (c) 2023 TxCity.com
+Copyright (c) 2024 SolanaCity.fun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
