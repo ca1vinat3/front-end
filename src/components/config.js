@@ -2763,8 +2763,8 @@ export const commonTitleOverrides = {
 };
 
 export const enabledConfig = {
-	SOL,
 	ETH,
+	SOL,
 	BTC,
 	// DASH,
 	// BCH,
