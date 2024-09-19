@@ -174,13 +174,13 @@ export default {
 		changeUrlDash(pushState = true, notHome = false) {
 			if (this.activeKey === "home") {
 				if (!notHome) {
-					this.$root.changeUrl("", "Blockchain Transaction Visualizer - TxCity.io", true, pushState);
+					this.$root.changeUrl("", "Blockchain Transaction Visualizer - SolanaCity.fun", true, pushState);
 					this.$root.replaceVizPage();
 				}
 			} else {
 				this.$root.changeUrl(
 					"d/" + this.activeKey,
-					this.activeConfig.title + " - TxCity.io",
+					this.activeConfig.title + " - SolanaCity.fun",
 					true,
 					pushState
 				);

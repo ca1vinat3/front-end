@@ -40,7 +40,7 @@ export default {
 			darkMode: true,
 			autoLoad: false,
 			autoLoading: false,
-			selectedCoins: ["ETH", "BTC"],
+			selectedCoins: ["ETH","SOL"],
 			now: 0,
 			nowMinute: 0,
 			moonHeadAds: [],
@@ -189,7 +189,7 @@ export default {
 				return false;
 			}
 			if (onlyName) return title;
-			title += " Transaction Visualizer - TxCity.io";
+			title += " Transaction Visualizer - SolanaCity.fun";
 			return title;
 		},
 		getVizTitleFromStreets(changeHomeUrl = true, pushState = false) {
@@ -210,7 +210,7 @@ export default {
 				title += possible.config.coinName + " & ";
 			}
 			title = title.slice(0, -3);
-			title += " Transaction Visualizer - TxCity.io";
+			title += " Transaction Visualizer - SolanaCity.fun";
 			if (changeHomeUrl) this.changeHomeUrl(endingString, title, true, pushState);
 			return title;
 		},

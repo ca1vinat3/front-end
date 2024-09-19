@@ -41,11 +41,11 @@ export const donateData = (ticker) => {
 
 	return {
 		key: "donate-ad",
-		title: "Contribute to Txcity!",
+		title: "Contribute to SolanaCity!",
 		html: `<div class="ta-l">
-    <span class="t-yellow">Txcity citizens!</span>
+    <span class="t-yellow">SolanaCity citizens!</span>
     <br />
-    Now you can contribute to the development of Txcity, your donations will help to develop features.						
+    Now you can contribute to the development of SolanaCity, your donations will help to develop features.						
     <br />
 
     <div class="contributeInner">

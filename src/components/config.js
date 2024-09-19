@@ -1014,7 +1014,7 @@ export const ETH = {
 };
 
 export const SOL = {
-	ticker: "DASH",
+	ticker: "SOL",
 	coinName: "Solana",
 	color: "000000",
 	busColor: "000000",
@@ -2763,17 +2763,17 @@ export const commonTitleOverrides = {
 };
 
 export const enabledConfig = {
+	SOL,
 	ETH,
 	BTC,
-	DASH,
-	BCH,
-	XMR,
-	LTC,
-	ARBI,
-	MANTA,
-	CELO,
-	LUKSO,
-	SOL,
+	// DASH,
+	// BCH,
+	// XMR,
+	// LTC,
+	//ARBI,
+	// MANTA,
+	// CELO,
+	// LUKSO,
 };
 
 export const additionalSheets = {
