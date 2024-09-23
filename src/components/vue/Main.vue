@@ -40,7 +40,7 @@ export default {
 			darkMode: true,
 			autoLoad: false,
 			autoLoading: false,
-			selectedCoins: ["ETH","SOL"],
+			selectedCoins: ["ETH"],
 			now: 0,
 			nowMinute: 0,
 			moonHeadAds: [],

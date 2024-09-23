@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import { config, enabledConfig, userSettings, moonheadNames, DASH } from "./config.js";
+import { config, enabledConfig, userSettings, moonheadNames } from "./config.js";
 import { toRes, resetNeededRooms, getSheetKey } from "./utils/";
 import { resizeAll } from "./listeners.js";
 import BTCStreet from "./streets/bitcoin.js";
@@ -7,7 +7,7 @@ import DASHStreet from "./streets/dash.js";
 import BCHStreet from "./streets/bitcoin-cash.js";
 import ETHStreet from "./streets/ethereum.js";
 import LUKSOStreet from "./streets/lukso.js";
-import SOLStreet from "./streets/solana.js";
+import SOLANAStreet from "./streets/solana.js";
 import CELOStreet from "./streets/celo.js";
 import ARBIStreet from "./streets/abitrum";
 import MANTAStreet from "./streets/manta";
@@ -29,7 +29,7 @@ export const availableStreets = {
 	MANTA: MANTAStreet,
 	LUKSO: LUKSOStreet,
 	CELO: CELOStreet,
-	SOL: SOLStreet,
+	SOLANA: SOLANAStreet,
 };
 
 export const enabledStreets = {};
