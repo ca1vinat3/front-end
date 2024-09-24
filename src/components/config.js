@@ -2766,7 +2766,7 @@ export const enabledConfig = {
 	ETH,
 	SOLANA,
 	BTC,
-	DASH,
+	// DASH,
 	// BCH,
 	// XMR,
 	// LTC,
