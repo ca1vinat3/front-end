@@ -1013,9 +1013,9 @@ export const ETH = {
 	}),
 };
 
-export const SOL = {
-	ticker: "SOL",
-	coinName: "Solana",
+export const SOLANA = {
+	ticker: "SOLANA",
+	coinName: "SOLANA",
 	color: "000000",
 	busColor: "000000",
 	busCapacity: 0,
@@ -2764,7 +2764,7 @@ export const commonTitleOverrides = {
 
 export const enabledConfig = {
 	ETH,
-	SOL,
+	SOLANA,
 	BTC,
 	// DASH,
 	// BCH,

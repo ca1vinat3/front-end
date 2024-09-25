@@ -25,9 +25,6 @@
 						><span class="fab fa-twitter"></span
 					></a>				
 				</div>		
-				<div class="buttons social-buttons">
-					<a href="https://txstreet.com/" target="_blank"><p class="subtitle" style="font-size: 12px!important;">Forked from txstreet</p></a>
-				</div>		
 			</div>
 		</div>
 		<section id="landing-grid" class="section grid-section">

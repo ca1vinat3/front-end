@@ -2,15 +2,15 @@ import { Street } from "../street.js";
 // import { toRes, ethNewTxSetDepending } from "../utils/";
 // import { mirrorX, toRes, ethNewTxSetDepending, getSheetKey } from "../utils/";
 import { toRes, ethNewTxSetDepending } from "../utils/";
-import { SOL, ethUnits } from "../config.js";
+import { SOLANA, ethUnits } from "../config.js";
 import i18n from "../../i18n";
 import eventHub from "../vue/eventHub.js";
 import state from "../../wallet";
 // import Popup from "../game-objects/popup";
 
-export default class SOLStreet extends Street {
+export default class SOLANAStreet extends Street {
 	constructor(side) {
-		super(SOL, side);
+		super(SOLANA, side);
 	}
 
 	init() {
@@ -485,4 +485,4 @@ export default class SOLStreet extends Street {
 	}
 }
 
-SOLStreet.config = SOL;
+SOLANAStreet.config = SOLANA;
